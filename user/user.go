@@ -51,3 +51,17 @@ func New(firstName, lastName, birthday string) (*User, error) {
 		time.Now(),
 	}, nil
 }
+
+//type Text struct {
+//	Content string `json:"firstname"` // this will make json package read by this key its called struct tag
+//}
+//
+//func Save() {
+//	fileName := strings.ReplaceAll("some string", " ", "_") // this will replace all white space with underscore
+//	fileName := strings.ToLower("QWERTY")
+//
+//	json := json.Marshal("seb maz") // this will only write the data that is public (Capital Case in struct)
+//	os.WriteFile('fileName', json, 0644)
+//
+//	bufio.NewReader()
+//}
