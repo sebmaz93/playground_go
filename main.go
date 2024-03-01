@@ -1,7 +1,7 @@
 package main
 
-import "playground/loops"
+import "playground/conc"
 
 func main() {
-	loops.Main()
+	conc.Main()
 }
